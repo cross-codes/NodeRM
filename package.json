@@ -1,4 +1,11 @@
 {
   "name": "rmUtil",
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/rm.js"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
